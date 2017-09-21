@@ -1,0 +1,25 @@
+//
+//  YXPrefixHeader.pch
+//  YXPresentOneTransition(转场)
+//
+//  Created by Rookie_YX on 16/7/11.
+//  Copyright © 2016年 YX_Rookie. All rights reserved.
+//
+
+#ifndef YXPrefixHeader_pch
+#define YXPrefixHeader_pch
+
+#import "UIView+FrameChange.h"
+#import "Masonry.h"
+
+// present
+#import "YXPresentOneTransition.h"
+#import "YXPushOneTransition.h"
+
+#import "PushFirstViewController.h"
+#import "FirstViewController.h"
+#import "PushFirstTableViewCell.h"
+
+#define DURATION 0.7f
+
+#endif /* YXPrefixHeader_pch */

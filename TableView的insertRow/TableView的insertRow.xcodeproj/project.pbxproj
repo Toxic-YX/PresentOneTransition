@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		756A7E5D1D010FB3006E10D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A7E5C1D010FB3006E10D8 /* main.m */; };
+		756A7E601D010FB3006E10D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A7E5F1D010FB3006E10D8 /* AppDelegate.m */; };
+		756A7E631D010FB3006E10D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A7E621D010FB3006E10D8 /* ViewController.m */; };
+		756A7E661D010FB3006E10D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756A7E641D010FB3006E10D8 /* Main.storyboard */; };
+		756A7E681D010FB3006E10D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756A7E671D010FB3006E10D8 /* Assets.xcassets */; };
+		756A7E6B1D010FB3006E10D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756A7E691D010FB3006E10D8 /* LaunchScreen.storyboard */; };
+		756A7E761D010FB4006E10D8 /* TableView_insertRowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A7E751D010FB4006E10D8 /* TableView_insertRowTests.m */; };
+		756A7E811D010FB4006E10D8 /* TableView_insertRowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 756A7E801D010FB4006E10D8 /* TableView_insertRowUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		756A7E721D010FB4006E10D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 756A7E501D010FB3006E10D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 756A7E571D010FB3006E10D8;
+			remoteInfo = "TableView的insertRow";
+		};
+		756A7E7D1D010FB4006E10D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 756A7E501D010FB3006E10D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 756A7E571D010FB3006E10D8;
+			remoteInfo = "TableView的insertRow";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		756A7E581D010FB3006E10D8 /* TableView的insertRow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableView的insertRow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		756A7E5C1D010FB3006E10D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		756A7E5E1D010FB3006E10D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		756A7E5F1D010FB3006E10D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		756A7E611D010FB3006E10D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		756A7E621D010FB3006E10D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		756A7E651D010FB3006E10D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		756A7E671D010FB3006E10D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		756A7E6A1D010FB3006E10D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		756A7E6C1D010FB3006E10D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756A7E711D010FB4006E10D8 /* TableView的insertRowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView的insertRowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		756A7E751D010FB4006E10D8 /* TableView_insertRowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableView_insertRowTests.m; sourceTree = "<group>"; };
+		756A7E771D010FB4006E10D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756A7E7C1D010FB4006E10D8 /* TableView的insertRowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView的insertRowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		756A7E801D010FB4006E10D8 /* TableView_insertRowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableView_insertRowUITests.m; sourceTree = "<group>"; };
+		756A7E821D010FB4006E10D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		756A7E551D010FB3006E10D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756A7E6E1D010FB4006E10D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756A7E791D010FB4006E10D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		756A7E4F1D010FB3006E10D8 = {
+			isa = PBXGroup;
+			children = (
+				756A7E5A1D010FB3006E10D8 /* TableView的insertRow */,
+				756A7E741D010FB4006E10D8 /* TableView的insertRowTests */,
+				756A7E7F1D010FB4006E10D8 /* TableView的insertRowUITests */,
+				756A7E591D010FB3006E10D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		756A7E591D010FB3006E10D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				756A7E581D010FB3006E10D8 /* TableView的insertRow.app */,
+				756A7E711D010FB4006E10D8 /* TableView的insertRowTests.xctest */,
+				756A7E7C1D010FB4006E10D8 /* TableView的insertRowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		756A7E5A1D010FB3006E10D8 /* TableView的insertRow */ = {
+			isa = PBXGroup;
+			children = (
+				756A7E5E1D010FB3006E10D8 /* AppDelegate.h */,
+				756A7E5F1D010FB3006E10D8 /* AppDelegate.m */,
+				756A7E611D010FB3006E10D8 /* ViewController.h */,
+				756A7E621D010FB3006E10D8 /* ViewController.m */,
+				756A7E641D010FB3006E10D8 /* Main.storyboard */,
+				756A7E671D010FB3006E10D8 /* Assets.xcassets */,
+				756A7E691D010FB3006E10D8 /* LaunchScreen.storyboard */,
+				756A7E6C1D010FB3006E10D8 /* Info.plist */,
+				756A7E5B1D010FB3006E10D8 /* Supporting Files */,
+			);
+			path = "TableView的insertRow";
+			sourceTree = "<group>";
+		};
+		756A7E5B1D010FB3006E10D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				756A7E5C1D010FB3006E10D8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		756A7E741D010FB4006E10D8 /* TableView的insertRowTests */ = {
+			isa = PBXGroup;
+			children = (
+				756A7E751D010FB4006E10D8 /* TableView_insertRowTests.m */,
+				756A7E771D010FB4006E10D8 /* Info.plist */,
+			);
+			path = "TableView的insertRowTests";
+			sourceTree = "<group>";
+		};
+		756A7E7F1D010FB4006E10D8 /* TableView的insertRowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				756A7E801D010FB4006E10D8 /* TableView_insertRowUITests.m */,
+				756A7E821D010FB4006E10D8 /* Info.plist */,
+			);
+			path = "TableView的insertRowUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		756A7E571D010FB3006E10D8 /* TableView的insertRow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756A7E851D010FB4006E10D8 /* Build configuration list for PBXNativeTarget "TableView的insertRow" */;
+			buildPhases = (
+				756A7E541D010FB3006E10D8 /* Sources */,
+				756A7E551D010FB3006E10D8 /* Frameworks */,
+				756A7E561D010FB3006E10D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableView的insertRow";
+			productName = "TableView的insertRow";
+			productReference = 756A7E581D010FB3006E10D8 /* TableView的insertRow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		756A7E701D010FB4006E10D8 /* TableView的insertRowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756A7E881D010FB4006E10D8 /* Build configuration list for PBXNativeTarget "TableView的insertRowTests" */;
+			buildPhases = (
+				756A7E6D1D010FB4006E10D8 /* Sources */,
+				756A7E6E1D010FB4006E10D8 /* Frameworks */,
+				756A7E6F1D010FB4006E10D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				756A7E731D010FB4006E10D8 /* PBXTargetDependency */,
+			);
+			name = "TableView的insertRowTests";
+			productName = "TableView的insertRowTests";
+			productReference = 756A7E711D010FB4006E10D8 /* TableView的insertRowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		756A7E7B1D010FB4006E10D8 /* TableView的insertRowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756A7E8B1D010FB4006E10D8 /* Build configuration list for PBXNativeTarget "TableView的insertRowUITests" */;
+			buildPhases = (
+				756A7E781D010FB4006E10D8 /* Sources */,
+				756A7E791D010FB4006E10D8 /* Frameworks */,
+				756A7E7A1D010FB4006E10D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				756A7E7E1D010FB4006E10D8 /* PBXTargetDependency */,
+			);
+			name = "TableView的insertRowUITests";
+			productName = "TableView的insertRowUITests";
+			productReference = 756A7E7C1D010FB4006E10D8 /* TableView的insertRowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		756A7E501D010FB3006E10D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = YX_Rookic;
+				TargetAttributes = {
+					756A7E571D010FB3006E10D8 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = F5V2UR9J8H;
+					};
+					756A7E701D010FB4006E10D8 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = F5V2UR9J8H;
+						TestTargetID = 756A7E571D010FB3006E10D8;
+					};
+					756A7E7B1D010FB4006E10D8 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = F5V2UR9J8H;
+						TestTargetID = 756A7E571D010FB3006E10D8;
+					};
+				};
+			};
+			buildConfigurationList = 756A7E531D010FB3006E10D8 /* Build configuration list for PBXProject "TableView的insertRow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 756A7E4F1D010FB3006E10D8;
+			productRefGroup = 756A7E591D010FB3006E10D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				756A7E571D010FB3006E10D8 /* TableView的insertRow */,
+				756A7E701D010FB4006E10D8 /* TableView的insertRowTests */,
+				756A7E7B1D010FB4006E10D8 /* TableView的insertRowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		756A7E561D010FB3006E10D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756A7E6B1D010FB3006E10D8 /* LaunchScreen.storyboard in Resources */,
+				756A7E681D010FB3006E10D8 /* Assets.xcassets in Resources */,
+				756A7E661D010FB3006E10D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756A7E6F1D010FB4006E10D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756A7E7A1D010FB4006E10D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		756A7E541D010FB3006E10D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756A7E631D010FB3006E10D8 /* ViewController.m in Sources */,
+				756A7E601D010FB3006E10D8 /* AppDelegate.m in Sources */,
+				756A7E5D1D010FB3006E10D8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756A7E6D1D010FB4006E10D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756A7E761D010FB4006E10D8 /* TableView_insertRowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756A7E781D010FB4006E10D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756A7E811D010FB4006E10D8 /* TableView_insertRowUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		756A7E731D010FB4006E10D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 756A7E571D010FB3006E10D8 /* TableView的insertRow */;
+			targetProxy = 756A7E721D010FB4006E10D8 /* PBXContainerItemProxy */;
+		};
+		756A7E7E1D010FB4006E10D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 756A7E571D010FB3006E10D8 /* TableView的insertRow */;
+			targetProxy = 756A7E7D1D010FB4006E10D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		756A7E641D010FB3006E10D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				756A7E651D010FB3006E10D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		756A7E691D010FB3006E10D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				756A7E6A1D010FB3006E10D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		756A7E831D010FB4006E10D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		756A7E841D010FB4006E10D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		756A7E861D010FB4006E10D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableView的insertRow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YX-Rookic.TableView-insertRow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		756A7E871D010FB4006E10D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableView的insertRow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YX-Rookic.TableView-insertRow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		756A7E891D010FB4006E10D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TableView的insertRowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YX-Rookic.TableView-insertRowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableView的insertRow.app/TableView的insertRow";
+			};
+			name = Debug;
+		};
+		756A7E8A1D010FB4006E10D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TableView的insertRowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YX-Rookic.TableView-insertRowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableView的insertRow.app/TableView的insertRow";
+			};
+			name = Release;
+		};
+		756A7E8C1D010FB4006E10D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableView的insertRowUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YX-Rookic.TableView-insertRowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TableView的insertRow";
+			};
+			name = Debug;
+		};
+		756A7E8D1D010FB4006E10D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableView的insertRowUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YX-Rookic.TableView-insertRowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TableView的insertRow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		756A7E531D010FB3006E10D8 /* Build configuration list for PBXProject "TableView的insertRow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756A7E831D010FB4006E10D8 /* Debug */,
+				756A7E841D010FB4006E10D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		756A7E851D010FB4006E10D8 /* Build configuration list for PBXNativeTarget "TableView的insertRow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756A7E861D010FB4006E10D8 /* Debug */,
+				756A7E871D010FB4006E10D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		756A7E881D010FB4006E10D8 /* Build configuration list for PBXNativeTarget "TableView的insertRowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756A7E891D010FB4006E10D8 /* Debug */,
+				756A7E8A1D010FB4006E10D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		756A7E8B1D010FB4006E10D8 /* Build configuration list for PBXNativeTarget "TableView的insertRowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756A7E8C1D010FB4006E10D8 /* Debug */,
+				756A7E8D1D010FB4006E10D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 756A7E501D010FB3006E10D8 /* Project object */;
+}
